@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수학 객체</title>
+</head>
+<body>
+    <script>
+        var num = 2.1234;
+
+        var maxNum = Math.max(10,5,8,30),
+        minNum = Math.min(10,5,8,30),
+
+        roundNum = Math.round(num),
+        // 소수점 첫째자리에서 반올림
+        floorNum = Math.floor(num),
+        ceilNum = Math.ceil(num),
+        rndNum = Math.random(),
+        rndNum1 = Math.random()*10,
+        rndNum2 = Math.floor(Math.random()*11),
+        rndNum3 = Math.floor(Math.random()*31),
+        rndNum4 = Math.floor(Math.random() *31) + 120,
+        piNum = Math.PI,
+        powNum = Math.pow(10,3),
+        sqrtNum = Math.sqrt(100);
+
+        
+        document.write("maxNum : " + maxNum,"<br>");
+        document.write("minNum : " + minNum,"<br>");
+        document.write("roundNum : " + roundNum,"<br>");
+        document.write("floorNum : " + floorNum,"<br>");
+        document.write("ceilNum : " + ceilNum,"<br>");
+        document.write("rndNum : " + rndNum,"<br>");
+        document.write("rndNum1 : " + rndNum1,"<br>");
+        document.write("rndNum2 : " + rndNum2,"<br>");
+        document.write("rndNum3 : " + rndNum3,"<br>");
+        document.write("rndNum4 : " + rndNum4,"<br>");
+        document.write("piNum : " + piNum,"<br>");
+        document.write("powNum : " + powNum,"<br>");
+        document.write("sqrtNum : " + sqrtNum,"<br>");
+    </script>
+</body>
+</html>
